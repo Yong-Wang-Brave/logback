@@ -1,0 +1,320 @@
+2022-05-23 16:08:59.334 [main]ERROR o.s.boot.SpringApplication - [ReqId : ] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:13 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:17 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4241e0f4 - Failed to invoke valueOf{} method in class [ch.qos.logback.core.util.FileSize] with value [18G]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@50:21 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@51:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4ebff610 - Failed to invoke valueOf{} method in class [ch.qos.logback.core.util.FileSize] with value [18G]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@77:20 - no applicable action for [queneSize], current ElementPath  is [[configuration][appender][queneSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@97:20 - no applicable action for [queneSize], current ElementPath  is [[configuration][appender][queneSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.MybatisApplication.main(MybatisApplication.java:12)
+2022-05-23 16:11:32.579 [main]ERROR o.s.boot.SpringApplication - [ReqId : ] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:13 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:17 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@768fc0f2 - Failed to invoke valueOf{} method in class [ch.qos.logback.core.util.FileSize] with value [18G]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@50:21 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@51:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@77:20 - no applicable action for [queneSize], current ElementPath  is [[configuration][appender][queneSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@97:20 - no applicable action for [queneSize], current ElementPath  is [[configuration][appender][queneSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.MybatisApplication.main(MybatisApplication.java:12)
+2022-05-23 16:11:59.796 [main]ERROR o.s.boot.SpringApplication - [ReqId : ] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:13 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:17 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@436c81a3 - Failed to invoke valueOf{} method in class [ch.qos.logback.core.util.FileSize] with value [18G]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@50:21 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@51:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@77:20 - no applicable action for [queneSize], current ElementPath  is [[configuration][appender][queneSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@97:20 - no applicable action for [queneSize], current ElementPath  is [[configuration][appender][queneSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.MybatisApplication.main(MybatisApplication.java:12)
+2022-05-23 16:12:32.227 [main]ERROR o.s.boot.SpringApplication - [ReqId : ] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:13 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:17 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@50:21 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@51:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@77:20 - no applicable action for [queneSize], current ElementPath  is [[configuration][appender][queneSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@97:20 - no applicable action for [queneSize], current ElementPath  is [[configuration][appender][queneSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.MybatisApplication.main(MybatisApplication.java:12)
+2022-05-23 16:14:06.705 [main]ERROR o.s.boot.SpringApplication - [ReqId : ] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:13 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:17 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@50:21 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@51:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@97:20 - no applicable action for [queneSize], current ElementPath  is [[configuration][appender][queneSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.MybatisApplication.main(MybatisApplication.java:12)
+2022-05-23 16:15:21.097 [main]ERROR o.s.boot.SpringApplication - [ReqId : ] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:13 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:17 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@50:21 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@51:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.MybatisApplication.main(MybatisApplication.java:12)
+2022-05-23 16:16:51.954 [main]ERROR o.s.boot.SpringApplication - [ReqId : ] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:13 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:17 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@50:21 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@51:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.MybatisApplication.main(MybatisApplication.java:12)
+2022-05-23 16:17:33.617 [main]ERROR o.s.boot.SpringApplication - [ReqId : ] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:17 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@50:21 - no applicable action for [onMath], current ElementPath  is [[configuration][appender][filter][onMath]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@51:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.MybatisApplication.main(MybatisApplication.java:12)
+2022-05-23 16:18:09.114 [main]ERROR o.s.boot.SpringApplication - [ReqId : ] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@26:17 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@51:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.MybatisApplication.main(MybatisApplication.java:12)
+2022-05-23 16:19:12.775 [main]INFO  com.example.MybatisApplication - [ReqId : ] Starting MybatisApplication on DESKTOP-7U6MDTS with PID 9304 (C:\Users\king\IdeaProjects\demo1\target\classes started by king in C:\Users\king\IdeaProjects\demo1)
+2022-05-23 16:19:12.779 [main]INFO  com.example.MybatisApplication - [ReqId : ] No active profile set, falling back to default profiles: default
+2022-05-23 16:19:15.316 [main]INFO  o.s.b.w.e.tomcat.TomcatWebServer - [ReqId : ] Tomcat initialized with port(s): 8080 (http)
+2022-05-23 16:19:15.367 [main]INFO  o.a.coyote.http11.Http11NioProtocol - [ReqId : ] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-23 16:19:15.368 [main]INFO  o.a.catalina.core.StandardService - [ReqId : ] Starting service [Tomcat]
+2022-05-23 16:19:15.369 [main]INFO  o.a.catalina.core.StandardEngine - [ReqId : ] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-05-23 16:19:15.723 [main]INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [ReqId : ] Initializing Spring embedded WebApplicationContext
+2022-05-23 16:19:15.724 [main]INFO  o.s.web.context.ContextLoader - [ReqId : ] Root WebApplicationContext: initialization completed in 2872 ms
+2022-05-23 16:19:16.306 [main]INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [ReqId : ] Init DruidDataSource
+2022-05-23 16:19:16.599 [main]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} inited
+2022-05-23 16:19:16.971 [main]INFO  o.s.s.c.ThreadPoolTaskExecutor - [ReqId : ] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-23 16:19:17.456 [main]INFO  o.a.coyote.http11.Http11NioProtocol - [ReqId : ] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-23 16:19:17.506 [main]INFO  o.s.b.w.e.tomcat.TomcatWebServer - [ReqId : ] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23 16:19:17.513 [main]INFO  com.example.MybatisApplication - [ReqId : ] Started MybatisApplication in 5.28 seconds (JVM running for 7.492)
+2022-05-23 16:20:04.708 [SpringContextShutdownHook]INFO  o.s.s.c.ThreadPoolTaskExecutor - [ReqId : ] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-23 16:20:04.711 [SpringContextShutdownHook]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} closing ...
+2022-05-23 16:20:04.713 [SpringContextShutdownHook]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} closed
+2022-05-23 16:20:10.592 [main]INFO  com.example.MybatisApplication - [ReqId : ] Starting MybatisApplication on DESKTOP-7U6MDTS with PID 16752 (C:\Users\king\IdeaProjects\demo1\target\classes started by king in C:\Users\king\IdeaProjects\demo1)
+2022-05-23 16:20:10.596 [main]INFO  com.example.MybatisApplication - [ReqId : ] No active profile set, falling back to default profiles: default
+2022-05-23 16:20:12.682 [main]INFO  o.s.b.w.e.tomcat.TomcatWebServer - [ReqId : ] Tomcat initialized with port(s): 8080 (http)
+2022-05-23 16:20:12.693 [main]INFO  o.a.coyote.http11.Http11NioProtocol - [ReqId : ] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-23 16:20:12.693 [main]INFO  o.a.catalina.core.StandardService - [ReqId : ] Starting service [Tomcat]
+2022-05-23 16:20:12.693 [main]INFO  o.a.catalina.core.StandardEngine - [ReqId : ] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-05-23 16:20:12.829 [main]INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [ReqId : ] Initializing Spring embedded WebApplicationContext
+2022-05-23 16:20:12.829 [main]INFO  o.s.web.context.ContextLoader - [ReqId : ] Root WebApplicationContext: initialization completed in 2178 ms
+2022-05-23 16:20:13.014 [main]INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [ReqId : ] Init DruidDataSource
+2022-05-23 16:20:13.139 [main]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} inited
+2022-05-23 16:20:13.696 [main]INFO  o.s.s.c.ThreadPoolTaskExecutor - [ReqId : ] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-23 16:20:13.919 [main]INFO  o.a.coyote.http11.Http11NioProtocol - [ReqId : ] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-23 16:20:13.956 [main]INFO  o.s.b.w.e.tomcat.TomcatWebServer - [ReqId : ] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23 16:20:13.961 [main]INFO  com.example.MybatisApplication - [ReqId : ] Started MybatisApplication in 3.881 seconds (JVM running for 6.58)
+2022-05-23 16:24:46.911 [SpringContextShutdownHook]INFO  o.s.s.c.ThreadPoolTaskExecutor - [ReqId : ] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-23 16:24:46.914 [SpringContextShutdownHook]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} closing ...
+2022-05-23 16:24:46.917 [SpringContextShutdownHook]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} closed
+2022-05-23 16:26:09.594 [main]INFO  com.example.MybatisApplication - [ReqId : ] Starting MybatisApplication on DESKTOP-7U6MDTS with PID 24200 (C:\Users\king\IdeaProjects\demo1\target\classes started by king in C:\Users\king\IdeaProjects\demo1)
+2022-05-23 16:26:09.597 [main]INFO  com.example.MybatisApplication - [ReqId : ] No active profile set, falling back to default profiles: default
+2022-05-23 16:26:11.436 [main]INFO  o.s.b.w.e.tomcat.TomcatWebServer - [ReqId : ] Tomcat initialized with port(s): 8080 (http)
+2022-05-23 16:26:11.460 [main]INFO  o.a.coyote.http11.Http11NioProtocol - [ReqId : ] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-23 16:26:11.461 [main]INFO  o.a.catalina.core.StandardService - [ReqId : ] Starting service [Tomcat]
+2022-05-23 16:26:11.461 [main]INFO  o.a.catalina.core.StandardEngine - [ReqId : ] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-05-23 16:26:11.682 [main]INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [ReqId : ] Initializing Spring embedded WebApplicationContext
+2022-05-23 16:26:11.683 [main]INFO  o.s.web.context.ContextLoader - [ReqId : ] Root WebApplicationContext: initialization completed in 2029 ms
+2022-05-23 16:26:11.978 [main]INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [ReqId : ] Init DruidDataSource
+2022-05-23 16:26:12.258 [main]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} inited
+2022-05-23 16:26:12.644 [main]INFO  o.s.s.c.ThreadPoolTaskExecutor - [ReqId : ] Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-23 16:26:13.120 [main]INFO  o.a.coyote.http11.Http11NioProtocol - [ReqId : ] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-23 16:26:13.194 [main]INFO  o.s.b.w.e.tomcat.TomcatWebServer - [ReqId : ] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23 16:26:13.206 [main]INFO  com.example.MybatisApplication - [ReqId : ] Started MybatisApplication in 4.118 seconds (JVM running for 6.455)
+2022-05-23 16:28:38.738 [http-nio-8080-exec-1]INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [ReqId : ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-23 16:28:38.739 [http-nio-8080-exec-1]INFO  o.s.web.servlet.DispatcherServlet - [ReqId : ] Initializing Servlet 'dispatcherServlet'
+2022-05-23 16:28:38.759 [http-nio-8080-exec-1]INFO  o.s.web.servlet.DispatcherServlet - [ReqId : ] Completed initialization in 20 ms
+2022-05-23 16:28:45.911 [http-nio-8080-exec-4]INFO  com.example.Controller.welcome - [ReqId : ] get
+2022-05-23 16:29:44.930 [SpringContextShutdownHook]INFO  o.s.s.c.ThreadPoolTaskExecutor - [ReqId : ] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-23 16:29:44.935 [SpringContextShutdownHook]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} closing ...
+2022-05-23 16:29:44.938 [SpringContextShutdownHook]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} closed
+202211-05-23 16:29:51.635 [main]INFO  com.example.MybatisApplication - [ReqId : ] Starting MybatisApplication on DESKTOP-7U6MDTS with PID 6716 (C:\Users\king\IdeaProjects\demo1\target\classes started by king in C:\Users\king\IdeaProjects\demo1)
+202211-05-23 16:29:51.639 [main]INFO  com.example.MybatisApplication - [ReqId : ] No active profile set, falling back to default profiles: default
+202211-05-23 16:29:53.826 [main]INFO  o.s.b.w.e.tomcat.TomcatWebServer - [ReqId : ] Tomcat initialized with port(s): 8080 (http)
+202211-05-23 16:29:53.835 [main]INFO  o.a.coyote.http11.Http11NioProtocol - [ReqId : ] Initializing ProtocolHandler ["http-nio-8080"]
+202211-05-23 16:29:53.836 [main]INFO  o.a.catalina.core.StandardService - [ReqId : ] Starting service [Tomcat]
+202211-05-23 16:29:53.836 [main]INFO  o.a.catalina.core.StandardEngine - [ReqId : ] Starting Servlet engine: [Apache Tomcat/9.0.30]
+202211-05-23 16:29:53.955 [main]INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [ReqId : ] Initializing Spring embedded WebApplicationContext
+202211-05-23 16:29:53.955 [main]INFO  o.s.web.context.ContextLoader - [ReqId : ] Root WebApplicationContext: initialization completed in 2254 ms
+202211-05-23 16:29:54.246 [main]INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [ReqId : ] Init DruidDataSource
+202211-05-23 16:29:54.416 [main]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} inited
+202211-05-23 16:29:55.085 [main]INFO  o.s.s.c.ThreadPoolTaskExecutor - [ReqId : ] Initializing ExecutorService 'applicationTaskExecutor'
+202211-05-23 16:29:55.443 [main]INFO  o.a.coyote.http11.Http11NioProtocol - [ReqId : ] Starting ProtocolHandler ["http-nio-8080"]
+202211-05-23 16:29:55.477 [main]INFO  o.s.b.w.e.tomcat.TomcatWebServer - [ReqId : ] Tomcat started on port(s): 8080 (http) with context path ''
+202211-05-23 16:29:55.480 [main]INFO  com.example.MybatisApplication - [ReqId : ] Started MybatisApplication in 4.341 seconds (JVM running for 6.809)
+202211-05-23 16:30:23.586 [http-nio-8080-exec-1]INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [ReqId : ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+202211-05-23 16:30:23.586 [http-nio-8080-exec-1]INFO  o.s.web.servlet.DispatcherServlet - [ReqId : ] Initializing Servlet 'dispatcherServlet'
+202211-05-23 16:30:23.600 [http-nio-8080-exec-1]INFO  o.s.web.servlet.DispatcherServlet - [ReqId : ] Completed initialization in 14 ms
+202211-05-23 16:30:23.689 [http-nio-8080-exec-1]INFO  com.example.Controller.welcome - [ReqId : ] get
+202211-05-23 17:46:56.843 [SpringContextShutdownHook]INFO  o.s.s.c.ThreadPoolTaskExecutor - [ReqId : ] Shutting down ExecutorService 'applicationTaskExecutor'
+202211-05-23 17:46:56.845 [SpringContextShutdownHook]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} closing ...
+202211-05-23 17:46:56.847 [SpringContextShutdownHook]INFO  c.alibaba.druid.pool.DruidDataSource - [ReqId : ] {dataSource-1} closed
